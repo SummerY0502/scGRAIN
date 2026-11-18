@@ -25,6 +25,8 @@ Together, these components provide a multilevel representation connecting TFs, p
 
 ## Framework overview
 
+scGRAIN integrates single-cell RNA sequencing and chromatin accessibility data to infer multilevel regulatory relationships.
+
 <p align="center">
   <img src="docs/Fig1.png" width="95%">
 </p>
@@ -32,8 +34,6 @@ Together, these components provide a multilevel representation connecting TFs, p
 <p align="center">
   <b>Figure 1. Overview of the scGRAIN framework.</b>
 </p>
-
-scGRAIN first integrates single-cell RNA and chromatin accessibility profiles to construct multiomic representations of TFs and genes. TF–program associations are inferred from evidence subgraphs connecting TFs, program genes, and gene programs. Gene-level joint-mask scores are subsequently used to rank program genes according to their model-attributed contributions to individual TF–program associations. Complementary TF–gene inference and FCI-based gene–gene dependency analysis further characterize gene-level regulatory evidence and program-internal network structure.
 
 ---
 
