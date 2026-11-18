@@ -88,9 +88,6 @@ data/
 ├── RNA_scRNA_Parenchyma_cell.usages.k_100.dt_0_5.consensus.txt
 └── trans.txt
 ```
-
-A permanent archive and DOI for the required data files will be provided through Zenodo.
-
 ---
 
 ## Running the analyses
